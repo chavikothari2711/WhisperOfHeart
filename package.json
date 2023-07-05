@@ -1,0 +1,19 @@
+{
+  "name": "whispers_of_heart",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chavikothari2711/WhisperOfHeart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chavikothari2711/WhisperOfHeart/issues"
+  },
+  "homepage": "https://github.com/chavikothari2711/WhisperOfHeart#readme",
+  "description": ""
+}
