@@ -41,7 +41,7 @@ To run this project locally, follow these steps:
    3. Open your browser and navigate to http://localhost:3000
 
 ### Usage
-Visit the deployed website at https://whispers-of-heart.netlify.app/ to read and engage with the blog posts. Feel free to leave comments and share your thoughts!
+Visit the deployed website at [https://whispers-of-heart.netlify.app/](https://calm-rose-llama-ring.cyclic.app/) to read and engage with the blog posts. Feel free to leave comments and share your thoughts!
 
 ### Contributing
 Contributions are welcome! If you find a bug, have a suggestion, or want to contribute in any way, please open an issue or a pull request.
