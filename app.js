@@ -6,8 +6,10 @@ const _ = require('lodash');
 app.set('view engine','ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
-app.use(bodyParser.json())
-const uri = "mongodb+srv://ChaviKothari:Chavikot2711@cluster0.wl9ouh9.mongodb.net/?retryWrites=true&w=majority";
+app.use(bodyParser.json());
+require('dotenv').config();
+
+const uri = process.env.MONGODB_URL;
 // mongoose
 try {
   mongoose.connect(uri);
@@ -157,6 +159,6 @@ app.get("/rating/:options/:postid",function(req,res){
    res.redirect("/posts/"+req.params.postid);
 })
 
-app.listen(process.env.PORT || 3000,function(){
-  console.log("Server started on port 3000");
+app.listen(process.env.PORT || 3002,function(){
+  console.log("Server started on port 3002");
 });
